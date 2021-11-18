@@ -38,7 +38,7 @@ function Categories() {
         {
         Object.keys(items).map((item, i) => (
           <div className="card col-3 m-2 p-0" key={i}>
-          <img className="card-img-top" src="https://c2.lestechnophiles.com/www.numerama.com/wp-content/uploads/2018/02/star-wars.jpg?resize=600,300"></img>
+          <img className="card-img-top" src="https://c2.lestechnophiles.com/www.numerama.com/wp-content/uploads/2018/02/star-wars.jpg?resize=600,300" alt="images"></img>
             <div className="card-body text-center p-5">{item}</div>
           </div>
         ))
