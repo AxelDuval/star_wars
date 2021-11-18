@@ -78,7 +78,7 @@ function Recherche() {
           </form>
 
           {
-           setInput('1')
+            setInput('1')
           }
 
 
@@ -87,42 +87,7 @@ function Recherche() {
       )
     }
 
-
-
-
   }
 }
 
 export default Recherche;
-
-
-// if (useState.input != '') {
-
-
-//   return (
-
-//     <div className="row justify-content-center m-3 p-2">
-
-//       <form className="mb-3">
-//         <input
-//           className="form-control"
-//           type="search"
-//           placeholder="Rechercher un personnage"
-//           aria-label="Search"
-//           value={input}
-//           onInput={e => setInput(e.target.value)}
-//         />
-//       </form>
-
-
-//       {
-//         Object.keys(items).map((item, i) => (
-//           <ul className="m-2" key={i}>
-//             <li><b>{item}</b> : {items[item]}</li>
-//           </ul>
-//         ))
-//       }
-//     </div>
-
-//   )
-// }
