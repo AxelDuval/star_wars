@@ -19,10 +19,10 @@ function Header() {
                       <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                           <li className="nav-item">
-                          <Link to='/' className="nav-link">Accueil</Link>
+                          <Link to='star_wars/' className="nav-link">Accueil</Link>
                           </li>
                           <li className="nav-item">
-                          <Link to="/recherche" className="nav-link">Recherche</Link>
+                          <Link to="star_wars/recherche" className="nav-link">Recherche</Link>
                           </li>
                         </ul>
                        
