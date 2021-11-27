@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Categories />} />
-        <Route path="recherche" element={<Recherche />} />
+        <Route path="/star_wars/" element={<Categories />} />
+        <Route path="/star_wars/recherche" element={<Recherche />} />
       </Routes>
       <Footer />
     </div>
